@@ -6,38 +6,38 @@ trading_bot/
 │
 ├── config/
 │   ├── __init__.py
-│   ├── config.py              # 配置文件
-│   └── logging_config.py      # 日志配置
+│   ├── config.py              
+│   └── logging_config.py      
 │
 ├── core/
 │   ├── __init__.py
-│   ├── bot.py                 # 交易机器人核心类
-│   └── exceptions.py          # 自定义异常类
+│   ├── bot.py                 
+│   └── exceptions.py          
 │
 ├── data/
 │   ├── __init__.py
-│   ├── data_feed.py          # 数据获取和处理
-│   └── indicators.py         # 技术指标计算
+│   ├── data_feed.py          
+│   └── indicators.py         
 │
 ├── exchange/
 │   ├── __init__.py
-│   ├── binance_futures.py    # 币安合约接口封装
-│   └── exchange_abc.py       # 交易所抽象基类
+│   ├── binance_futures.py    
+│   └── exchange_abc.py       
 │
 ├── risk/
 │   ├── __init__.py
-│   ├── position.py           # 持仓管理
-│   └── risk_manager.py       # 风险控制
+│   ├── position.py           
+│   └── risk_manager.py       
 │
 ├── strategy/
 │   ├── __init__.py
-│   ├── strategy_abc.py       # 策略抽象基类
-│   ├── ma_strategy.py        # 移动平均线策略
-│   └── grid_strategy.py      # 网格策略
+│   ├── strategy_abc.py       
+│   ├── ma_strategy.py        
+│   └── grid_strategy.py      
 │
 ├── utils/
 │   ├── __init__.py
-│   ├── logger.py            # 日志工具
-│   └── helpers.py           # 辅助函数
+│   ├── logger.py            
+│   └── helpers.py           
 │
-└── main.py                  # 主程序入口
+└── main.py                  
